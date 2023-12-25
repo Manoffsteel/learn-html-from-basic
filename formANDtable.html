@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html final project</title>
+    
+</head>
+<body>
+
+    <h1>HTML Project</h1>
+
+    <section>
+        <h2>Table Tag</h2>
+        <table border="2px">
+            <caption>Programming Languages</caption>
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>Creator</th>
+                    <th>Year Created</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>C</td>
+                    <td>Dennis Ritchie</td>
+                    <td>1972</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>James Gosling</td>
+                    <td>1995</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Guido van Rossum</td>
+                    <td>1989</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Col spans</h3>
+        <table border="2px">
+            <tr>
+                <th colspan="2">Web Development Technologies</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Hypertext Markup Language</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Cascading Style Sheets</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+
+    <section>
+        <h2>Forms</h2>
+        <form action="/submit" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="gender">Gender:</label>
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+            <label><input type="radio" name="gender" value="other"> Other</label>
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="india">India</option>
+                <option value="us">usa</option>
+                <option value="uk">United Kingdom</option>
+            </select>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+  <section>
+    <iframe width="560" height="515" src="https://www.youtube.com/embed/rklidcZ-aLU?si=67X8pMVyzWkl-IE3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </section>
+  <section>
+    <iframe src="https://www.buddy4study.com/myprofile/matched-scholarships?lang=en" frameborder="0"></iframe>
+  </section>
+
+</body>
+</html>
